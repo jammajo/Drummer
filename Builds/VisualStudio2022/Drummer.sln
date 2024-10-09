@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Drummer - Standalone Plugin", "Drummer_StandalonePlugin.vcxproj", "{D22A49D2-5824-CDA2-DB57-1E916AF06D69}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AB52C0AC-00AC-3C41-54C2-22DFA6B2C3B4} = {AB52C0AC-00AC-3C41-54C2-22DFA6B2C3B4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Drummer - VST3", "Drummer_VST3.vcxproj", "{5E16F921-6E66-D595-B5F7-7859309AC26E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AB52C0AC-00AC-3C41-54C2-22DFA6B2C3B4} = {AB52C0AC-00AC-3C41-54C2-22DFA6B2C3B4}
+		{ECD660C1-B1DD-95D7-9162-CE2379064992} = {ECD660C1-B1DD-95D7-9162-CE2379064992}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Drummer - Shared Code", "Drummer_SharedCode.vcxproj", "{AB52C0AC-00AC-3C41-54C2-22DFA6B2C3B4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Drummer - VST3 Manifest Helper", "Drummer_VST3ManifestHelper.vcxproj", "{ECD660C1-B1DD-95D7-9162-CE2379064992}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E16F921-6E66-D595-B5F7-7859309AC26E}.Debug|x64.ActiveCfg = Debug|x64
+		{5E16F921-6E66-D595-B5F7-7859309AC26E}.Debug|x64.Build.0 = Debug|x64
+		{5E16F921-6E66-D595-B5F7-7859309AC26E}.Release|x64.ActiveCfg = Release|x64
+		{5E16F921-6E66-D595-B5F7-7859309AC26E}.Release|x64.Build.0 = Release|x64
+		{D22A49D2-5824-CDA2-DB57-1E916AF06D69}.Debug|x64.ActiveCfg = Debug|x64
+		{D22A49D2-5824-CDA2-DB57-1E916AF06D69}.Debug|x64.Build.0 = Debug|x64
+		{D22A49D2-5824-CDA2-DB57-1E916AF06D69}.Release|x64.ActiveCfg = Release|x64
+		{D22A49D2-5824-CDA2-DB57-1E916AF06D69}.Release|x64.Build.0 = Release|x64
+		{AB52C0AC-00AC-3C41-54C2-22DFA6B2C3B4}.Debug|x64.ActiveCfg = Debug|x64
+		{AB52C0AC-00AC-3C41-54C2-22DFA6B2C3B4}.Debug|x64.Build.0 = Debug|x64
+		{AB52C0AC-00AC-3C41-54C2-22DFA6B2C3B4}.Release|x64.ActiveCfg = Release|x64
+		{AB52C0AC-00AC-3C41-54C2-22DFA6B2C3B4}.Release|x64.Build.0 = Release|x64
+		{ECD660C1-B1DD-95D7-9162-CE2379064992}.Debug|x64.ActiveCfg = Debug|x64
+		{ECD660C1-B1DD-95D7-9162-CE2379064992}.Debug|x64.Build.0 = Debug|x64
+		{ECD660C1-B1DD-95D7-9162-CE2379064992}.Release|x64.ActiveCfg = Release|x64
+		{ECD660C1-B1DD-95D7-9162-CE2379064992}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
